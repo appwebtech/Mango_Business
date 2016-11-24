@@ -90,7 +90,7 @@ h1 {
 /* ---------------  Header -------------- */
 
 #header {
-	background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.7)), url(img/mangoes_1920x1280.jpg);
+	background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.7)), url(img/mango_background.jpg);
 	background-size: cover;
 	background-position: center;;
 	height: 100vh;
