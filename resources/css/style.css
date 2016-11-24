@@ -200,8 +200,29 @@ h2:after {
 	border-bottom: 2px solid #e67e22;
 }
 
+/* ---------------  Varieties -------------- */
 
 
+.types {
+	list-style: none;
+	width: 100%;
+}
+
+.types li {
+	display: block;
+	float: left;
+	width: 25%;
+}
+
+.fruit-varieties {
+	width: 100%;
+	margin: 0;
+}
+
+.fruit-varieties img {
+	width: 100%;
+	height: auto;
+}
 
 
 
