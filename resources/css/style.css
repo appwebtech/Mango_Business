@@ -200,8 +200,18 @@ h2:after {
 	border-bottom: 2px solid #e67e22;
 }
 
+/* ---------------  Type Varieties -------------- */
+
+.section-features .long-copy {
+	margin-bottom: 30px;
+}
+
+
 /* ---------------  Varieties -------------- */
 
+.section-varieties {
+	padding: 0;
+}
 
 .types {
 	list-style: none;
@@ -217,13 +227,22 @@ h2:after {
 .fruit-varieties {
 	width: 100%;
 	margin: 0;
+	overflow: hidden;
+	background-color: #000;
 }
 
 .fruit-varieties img {
+	opacity: 0.7;
 	width: 100%;
 	height: auto;
+	transform: scale(1.15);
+	transition: transform 0.5s, opacity 0.5s;
 }
 
+.fruit-varieties img:hover {
+	opacity: 1;
+	transform: scale(1.03);
+}
 
 
 
