@@ -160,7 +160,8 @@ a:active {
 
 /* ----------Buttons---------- */
 .bonyeza:link,
-.bonyeza:visited {
+.bonyeza:visited, 
+input[type=submit]{
 	margin-top: 0;
 	margin-bottom: 20px;
 	display: inline-block;
@@ -174,7 +175,9 @@ a:active {
 
 
 .bonyeza-yote:link,
-.bonyeza-yote:visited {
+.bonyeza-yote:visited,
+input[type=submit]
+ {
 	background-color: #e67e22;
 	border: 1px solid #e67e22;
 	color: #fff;
@@ -189,19 +192,23 @@ a:active {
 }
 
 .bonyeza:hover,
-.bonyeza:active {
+.bonyeza:active,
+input[type=submit]:hover,
+input[type=submit]:active {
 	background-color: #cf6d17;
 }
 
 
 .bonyeza-yote:hover,
-.bonyeza-yote:active {
+.bonyeza-yote:active,
+input[type=submit] {
 	border: 1px solid #e67e22;
 }
 
 
 .bonyeza-roho:hover,
-.bonyeza-roho:active {
+.bonyeza-roho:active,
+ {
 	border: 1px solid #e67e22;
 	color: #fff;
 }
@@ -467,11 +474,32 @@ cite img {
 	padding: 5px 0;
 }
 
+/* ---------------  Form -------------- */
 
+.contact-form {
+	width: 60%;
+	margin: 0 auto;
+}
 
+input[type=text],
+input[type=email],
+select,
+textarea {
+	width: 100%;
+	padding: 7px;
+	border-radius: 3px;
+	border: 1px solid #ccc;
+}
 
+textarea {
+	height: 100px;
+}
 
+input[type=checkbox] {
+	margin: 10px 5px 10px 0;
+}
 
+*:focus {outline: none;}
 
 
 
