@@ -1,6 +1,7 @@
 
 $(document).ready(function(){
 
+// Code for sticky nav 
 $('.js-josembi-sec_features').waypoint(function(direction){
 	if (direction == "down") {
 		$('nav').addClass('sticky');
@@ -10,5 +11,35 @@ $('.js-josembi-sec_features').waypoint(function(direction){
 }, {
    offset: '60px'
  })
+
+// Scroll on buttons
+
+$('.js-josembi-scroller-to-ksh').click(function(){
+	$('html, body').animate({scrollTop: $('.js-josembi-pricing').offset().top}, 1000)
+})
+
+$('.js-josembi-scroller-to-start').click(function(){
+	$('html, body').animate({scrollTop: $('.js-josembi-sec_features ').offset().top}, 1000)
+})
+
+// Navigation scroll (smoothifying.....)
+
+$(function() {
+  $('a[href*="#"]:not([href="#"])').click(function() {
+    if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
+      var target = $(this.hash);
+      target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
+      if (target.length) {
+        $('html, body').animate({
+          scrollTop: target.offset().top
+        }, 1000);
+        return false;
+      }
+    }
+  });
+});
+
+
+
 
 });
