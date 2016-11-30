@@ -22,7 +22,7 @@ $('.js-josembi-scroller-to-start').click(function(){
 	$('html, body').animate({scrollTop: $('.js-josembi-sec_features ').offset().top}, 1000)
 })
 
-// Navigation scroll (smoothifying.....)
+// Navigation scroll (smoothifying)
 
 $(function() {
   $('a[href*="#"]:not([href="#"])').click(function() {
@@ -39,7 +39,38 @@ $(function() {
   });
 });
 
+// Animations on scroll
+
+$('.js-josembi-wp1').waypoint(function(direction){
+  $('.js-josembi-wp1').addClass('animated fadeIn');
+}, {
+  offset: '50%'
+});
+
+$('.js-josembi-wp2').waypoint(function(direction){
+  $('.js-josembi-wp2').addClass('animated fadeInUp');
+}, {
+  offset: '50%'
+});
+
+$('.js-josembi-wp3').waypoint(function(direction){
+  $('.js-josembi-wp3').addClass('animated fadeIn');
+}, {
+  offset: '60%'
+});
+
+$('.js-josembi-wp4').waypoint(function(direction){
+  $('.js-josembi-wp4').addClass('animated pulse');
+}, {
+  offset: '50%'
+});
+
 
 
 
 });
+
+
+
+
+

@@ -622,6 +622,25 @@ footer p {
 }
 
 
+/* ---------------  Animations -------------- */
+.js-josembi-wp1,
+.js-josembi-wp2,
+.js-josembi-wp3 {
+	opacity: 0;
+	-webkit-animation-duration: 1s;
+	        animation-duration: 1s;
+}
+
+.js-josembi-wp1.animated,
+.js-josembi-wp2.animated,
+.js-josembi-wp3.animated {
+	opacity: 1;
+}
+
+.js-josembi-wp4 {
+	-webkit-animation-duration: 1s;
+	        animation-duration: 1s;
+}
 
 
 
