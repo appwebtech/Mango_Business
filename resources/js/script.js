@@ -65,6 +65,21 @@ $('.js-josembi-wp4').waypoint(function(direction){
   offset: '50%'
 });
 
+  // Mobile Navigation 
+$('.js-josembi-icon').click(function() {
+    var nav = $('.js--main-nav');
+    var icon = $('.js-josembi-icon i')
+
+    nav.slideToggle(200);
+    /* switch from hamburger to cross icon */
+    if (icon.hasClass('ion-navicon-round')){
+      icon.addClass('ion-close-round');
+      icon.removeClass('ion-navicon-round');
+    } else {
+      icon.addClass('ion-navicon-round');
+      icon.removeClass('ion-close-round');
+    }
+  });
 
 
 
