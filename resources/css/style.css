@@ -220,7 +220,7 @@ input[type=submit] {
 /* ---------------  Header -------------- */
 
 #header {
-	background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.7)), url(img/mango_background.jpg);
+	background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.7)), url(img/mango_background-min.jpg);
 	background-size: cover;
 	background-position: center;
 	background-attachment: fixed;
@@ -432,7 +432,7 @@ input[type=submit] {
 /* ---------------  Testimonials -------------- */
 
 .section-testimonials {
-	background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.7)), url(img/juice.jpg);
+	background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.7)), url(img/juice-min.jpg);
 	background-size: cover;
 	color: #fff;
 	background-attachment: fixed;
