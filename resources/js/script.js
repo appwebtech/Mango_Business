@@ -48,7 +48,7 @@ $('.js-josembi-wp1').waypoint(function(direction){
 });
 
 $('.js-josembi-wp2').waypoint(function(direction){
-  $('.js-josembi-wp2').addClass('animated fadeInUp');
+  $('.js-josembi-wp2').addClass('animated zoomInUp');
 }, {
   offset: '50%'
 });
@@ -60,7 +60,7 @@ $('.js-josembi-wp3').waypoint(function(direction){
 });
 
 $('.js-josembi-wp4').waypoint(function(direction){
-  $('.js-josembi-wp4').addClass('animated pulse');
+  $('.js-josembi-wp4').addClass('animated slideInRight');
 }, {
   offset: '50%'
 });
@@ -83,11 +83,21 @@ $('.js-josembi-icon').click(function() {
 
 // Maps
 
-new GMaps({
-  div: '#map',
-  lat: -12.043333,
-  lng: -77.028333
-});
+  var map = new GMaps({
+    div: '.map',
+    lat: -1.183444,
+    lng: 37.2,
+    zoom: 10
+  });
+
+    map.addMarker({
+    lat: -1.183444,
+    lng: 36.836580,
+    title: 'Machakos',
+    infoWindow: {
+    content: '<p>Our Nairobi HQ</p>'
+    }
+  });
 
 
 });
