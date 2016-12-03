@@ -389,11 +389,16 @@
 <!-- Start of Section Contact form  -->
 
 <section class="section-form">
+
+	<div class="map">
+		
+	</div>
+
 	<div class="row">
 		<h2>We are happy to hear from you</h2>
 	</div>
 	<div class="row">
-		<form action="#" method="post" accept-charset="utf-8" class="contact-form">
+		<form action="mailer.php" method="post" accept-charset="utf-8" class="contact-form">
 			<div class="row">
 				<div class="col span-1-of-3">
 					<label for="name">Name</label>
@@ -492,7 +497,24 @@
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
 <script src="vendors/js/jquery.waypoints.min.js" type="text/javascript" charset="utf-8" async defer></script>
+<script src="http://maps.google.com/maps/api/js"></script>
 <script src="resources/js/script.js" type="text/javascript" charset="utf-8" async defer></script>
+<script src="vendors/js/gmaps.js" type="text/javascript" charset="utf-8" async defer></script>
+
+
+<!-- Google Analytics ~ Private Tracker = Joseph Mwania != Appwebtech || Other Public Entity ~ -->
+
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-72247621-2', 'auto');
+  ga('send', 'pageview');
+
+</script>
+
 </body>
 
 </html>
