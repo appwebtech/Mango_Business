@@ -524,6 +524,7 @@ cite img {
 	margin: 0 auto;
 }
 
+
 input[type=text],
 input[type=email],
 select,
@@ -575,12 +576,27 @@ input[type=checkbox] {
 	font-size: 1.6em;
 }
 
+.form-messages {
+	width: 70%;
+	margin: 0 auto;
+	padding: 10px;
+	border-radius: 10px;
+	margin-bottom: 30px;
+}
+
+.success {
+	background-color: rgba(38, 191, 68, 0.5);
+}
+
+.error {
+	background-color: rgba(209, 46, 46, 0.5);
+}
 
 /* ---------------  Footer -------------- */
 
 footer {
 	background-color: #333;
-	padding: 50px;
+	padding: 30px;
 	font-size: 90%;
 }
 

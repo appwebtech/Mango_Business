@@ -388,6 +388,7 @@
 
 <!-- Start of Section Contact form  -->
 
+<section class="section-form">
 
 <div class="map-box">
 	
@@ -401,11 +402,11 @@
 	</div>
 	<div class="row">
 		<form action="appwebtech.php" method="post" accept-charset="utf-8" class="contact-form">
-		<div class="row">
 
+		<div class="row">
 		<!-- Incoporating PHP ~ Server Side ~ -->
-		
-<!-- 		<?php
+
+		<?php
 		if($_GET['success'] == 1) {
 			echo "<div class=\"form-messages success\">
 				Thank you! your message has been sent.
@@ -420,7 +421,7 @@
 			</div>
 		
 
-		?> -->
+		?>
 			<div class="row">
 				<div class="col span-1-of-3">
 					<label for="name">Name</label>
@@ -480,6 +481,7 @@
 	  </div>
 	</div>
 	
+</section>
 <!-- End of Section Contact form  -->
 
 <!-- Start of Footer  -->

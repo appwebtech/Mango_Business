@@ -63,6 +63,7 @@ $('.js-josembi-wp4').waypoint(function(direction){
   $('.js-josembi-wp4').addClass('animated slideInRight');
 }, {
   offset: '50%'
+  
 });
 
   // Mobile Navigation 
