@@ -1,6 +1,6 @@
 <div align="center">
 <h1>Website (Fluid-Design)</h1> 
-<h2>Synopsis of Software Development</h2>
+<h2>Software Development Documentation</h2>
   <h3>
     <a href="#">
       Fluid Design (HTML5 / CSS3 /jQuery)
@@ -184,6 +184,10 @@ https://www.facebook.com/theappwebtech/
 
 https://it.pinterest.com/appwebtech/
 
+
+## License
+
+MIT License. Copyright 2016 
 
 
 
