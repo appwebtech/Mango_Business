@@ -3,16 +3,16 @@
 <h2>Software Development Documentation</h2>
   <h3>
     <a href="#">
-      Fluid Design (HTML5 / CSS3 /jQuery)
+      Fluid Design (HTML5 / CSS3 /jQuery /PHP)
     </a>
   </h3>
 </div>
 
 <div align="center">
   <sub>Developed and Designed by
-  <a href="#">Joe</a> for
+  <a href="#">Joseph M Mwania</a> for
   <a href="#">
-    App
+    Appwebtech
   </a>
 </div>
 
@@ -29,6 +29,7 @@
   - [Deployment instructions](#deployment-instructions)
   - [Developer](#developer)
   - [Contacts](#contacts)
+  - [License](#license)
 
 # Introduction
 
@@ -122,7 +123,7 @@ It's easy to know the demographics of my visitors, even though in my case, I alr
 
 
 Below is an image with the demographics of my website visitors.
-![analytics_1](https://cloud.githubusercontent.com/assets/20464709/21590425/edee9d94-d0fb-11e6-95f4-702895e68e2d.png)
+![1](https://cloud.githubusercontent.com/assets/20464709/21944932/ea1d3d5c-d9d8-11e6-9d42-fad95f39dc61.png)
 <hr>
 
 An overview of your audience, their age and type of tech they are using in regard to browsers, OS, service providers together with their platforms like mobile or desktop can help in creating decisions on how to market your products. 
@@ -130,16 +131,16 @@ An overview of your audience, their age and type of tech they are using in regar
 <hr>
 
 ### Browsers
-![analytics_3](https://cloud.githubusercontent.com/assets/20464709/21590439/103480ee-d0fc-11e6-8c0c-e0fb223b800a.png)
+![2](https://cloud.githubusercontent.com/assets/20464709/21945033/64955a24-d9d9-11e6-933c-279050d09cea.png)
 <hr>
 
 ### Platforms (Mobile or Desktop)
-![analytics 4](https://cloud.githubusercontent.com/assets/20464709/21590445/1ceeceb6-d0fc-11e6-8818-48d2a7025218.png)
+![3](https://cloud.githubusercontent.com/assets/20464709/21945122/d9a01e94-d9d9-11e6-8597-a0beab2c0c3b.png)
 <hr>
 
 ### Mobile (Devices)
 I can dig deeper to find out how many sessions were logged using an iPhone for instance. 
-![analytics_5](https://cloud.githubusercontent.com/assets/20464709/21590448/28e11922-d0fc-11e6-9bfa-4ac7f435f390.png)
+![4](https://cloud.githubusercontent.com/assets/20464709/21945185/295f67be-d9da-11e6-88a5-15893afa494b.png)
 <hr>
 
 ### Cohort Analysis 
@@ -170,7 +171,7 @@ I've used GitHub **gh-pages** to host the website because it's a simple single w
 
 ## Developer
 
-joe
+Joseph M Mwania
 
 ## Contacts
 
