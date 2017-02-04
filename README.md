@@ -23,7 +23,7 @@
   - [HTML5](#html5)
   - [CSS3](#css3)
   - [jQuery](#jquery)
-  - [Adwords and SEO](#adwords-and-seo)
+  - [Analytics and SEO](#adwords-and-seo)
   - [Photoshop](#photoshop)
   - [PHP](#php)
   - [Deployment instructions](#deployment-instructions)
@@ -111,9 +111,9 @@ See img below for some jQuery scripts used in this project.
 ![jQuery code](https://cloud.githubusercontent.com/assets/20464709/21590400/c9570a2a-d0fb-11e6-881d-96bf4abbcaa6.png)
 <hr>
 
-## Adwords and SEO 
+## Analytics and SEO 
 
-I wont go in depth about Adwords and SEO but in a nutshell, it does provide you with a lot of information regarding your website visitors. Whenever I'm designing a website, I make sure that it's [SEO](https://en.wikipedia.org/wiki/Search_engine_optimization) ready. That means that the google Crawler or Bot does rank your website in the google search engine; you can benefit more if your website is linked to a google analytics account. 
+I wont go in depth about Analytics and SEO but in a nutshell, it does provide you with a lot of information regarding your website visitors. Whenever I'm designing a website, I make sure that it's [SEO](https://en.wikipedia.org/wiki/Search_engine_optimization) ready. That means that the google Crawler or Bot does rank your website in the google search engine; you can benefit more if your website is linked to a google analytics account. 
 
 There are a lot of things that can put your business in a competitive edge if you use google analytics and if your website is well optimised. 
 
