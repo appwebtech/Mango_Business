@@ -33,7 +33,7 @@
 
 # Introduction
 
-Just as a headsup GiHub has decided to host simple websites within their servers for people to view. Wish they did that for complex applications written in Rails, Python, etc. Anyway, the website can be viewed [here.](https://appwebtech.github.io/Mango_Business/)
+Just as a headsup GiHub has decided to host simple websites within their servers for people to view. Wish they did that for complex applications written in Rails, Python, etc. Anyway, the website can be viewed [here](https://appwebtech.github.io/Mango_Business/) but many functionalities externally supported by google maps, etc are not yet supported so you won't experience the web page in it's compleateness. 
 
 Most Web Designers are torn between the choice of using a fluid, fixed, hybrid or elastic web design. As the second day of the new year rolls in and as part of my new year resolutions, I have promised to create a mock-up using each tech that I'm conversant with and make it available on my [GitHub page](https://github.com/appwebtech). Last year was a very busy one and although I'm still on vacation travelling till on Friday (the first Friday in 2017), I'll try to code whenever I get time and push to GitHub that way I'm sure people will see my uncompleted code and thus motivate myself to finish it.
 
